@@ -21,13 +21,4 @@ public class InsertionSort {
 
 	    return vector;
 	}
-	
-	public static void main(String[] args) {
-		
-		int [] miVector = {2,5,6,3,4,7,9,1,10};
-		
-		System.out.println(Arrays.toString(insertionSort(miVector)));
-
-	}
-
 }
