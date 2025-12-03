@@ -25,16 +25,4 @@ public class BubbleSort {
 		return vector;
 	
 	}
-	  
-	 
-	
-	public static void main(String[] args) {
-		
-		int [] test = {1,2,3,4};
-		
-		System.out.println(Arrays.toString(bubbleSort(test)));
-	
-		
-	}
-
 }
