@@ -11,7 +11,7 @@ public class BubbleSort {
 		
 		while (!sorted) {
 			
-			sorted = true; // Asumir que esta ordenada
+			sorted = true; 
 			
 			for (int i = 0; i < vector.length - 1; i++) {
 				if (vector[i] > vector[i+1]) {
