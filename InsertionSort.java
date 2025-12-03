@@ -9,13 +9,13 @@ public class InsertionSort {
 	        int key = vector[i];
 	        int j = i - 1;
 
-	        // Mover elementos mayores un lugar a la derecha
+	        // Shift elements greater than the key one position to the right
 	        while (j >= 0 && vector[j] > key) {
 	            vector[i] = vector[j];
 	            j--;
 	        }
 
-	        // Insertar el elemento en su posición correcta
+	        // Insert the element (key) in its correct position
 	        vector[j + 1] = key;
 	    }
 
